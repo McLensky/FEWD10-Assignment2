@@ -60,7 +60,7 @@ body {
 /*******************************************/
 
 
-header {
+.landing header {
     width: 100%;
     margin: auto;
     height: 500px;
@@ -78,12 +78,12 @@ header {
     padding: 20px;
 }
 
-#testimonial {
+.testimonial {
     background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
     text-align: center;
 }
  
-#sign-up {
+.sign-up {
     background: #f9e42e;
 }
 
@@ -97,14 +97,14 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-h1 {
+.landing h1 {
     font-weight: 800;
     margin-bottom: 90px;
     margin-top: 0;
-
+    margin-left: 30px;
 }
 
-h2 {
+.landing h2 {
     font-weight: 600;
     text-align: center;
     margin-bottom: 40px;
@@ -114,7 +114,7 @@ h2 {
     text-align: center;
 }
 
-#button {
+.button1 {
     background-color: #f9e42e;
     color: #121212;
     font-size: 14px;
@@ -124,7 +124,7 @@ h2 {
     cursor:pointer; /* we need this because we lose the pointer when we make an a tag display block */
 }
 
-h3 {
+.landing h3 {
     font-weight: 600;
     font-size: 20px;
     text-indent: 60px;
@@ -141,19 +141,19 @@ h3 {
     color: #606161;
 }
 
-#testimonial {
+.testimonial {
     color: white;
     font-size: 18px;
     padding: 30px;
 }
 
-#testimonial p {
+.testimonial p {
     font-style: italic;
     margin: 0;
     padding: 0;
 }
 
-#testimonial span {
+.testimonial span {
     font-weight: 600;
 }
 
@@ -163,7 +163,7 @@ h3 {
     padding: 20px
 }
 
-#button2 {
+.button2 {
     background-color: #033048;
     color: white;
     font-size: 12px;
